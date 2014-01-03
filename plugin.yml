@@ -1,0 +1,8 @@
+main: net.minekingdom.blindcommand.BlindCommand
+name: BlindCommand
+version: 0.2
+
+commands:
+   blind:
+      description: Blind and weak the player for a long period of time (about an eternity).
+      usage: /blind <player>
