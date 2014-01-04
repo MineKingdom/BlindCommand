@@ -6,3 +6,6 @@ commands:
    blind:
       description: Blind and weak the player for a long period of time (about an eternity).
       usage: /blind <player>
+   unblind:
+      description: Unblind and unweak the player.
+      usage: /unblind <player>
