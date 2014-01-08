@@ -26,13 +26,13 @@ public class BlindCommand extends JavaPlugin {
 						target.addPotionEffect(potion);
 						PotionEffect potion2 = new PotionEffect(PotionEffectType.WEAKNESS, 2000000000, 100);
 						target.addPotionEffect(potion2);
-						sender.sendMessage(ChatColor.GREEN + "Commande réussie !");
+						sender.sendMessage(ChatColor.GREEN + "Commande rÃ©ussie !");
 					} else {
 						sender.sendMessage(ChatColor.RED + "Le joueur " + args[0] + " n'existe pas.");
 					}
 					return true;
 				} else {
-					sender.sendMessage(ChatColor.RED + "La commande écrite est de taille incorrecte.");
+					sender.sendMessage(ChatColor.RED + "La commande Ã©crite est de taille incorrecte.");
 				}	
 			} else if (cmd.getName().equalsIgnoreCase("unblind")) {
 				if (args.length == 1) {
@@ -42,13 +42,13 @@ public class BlindCommand extends JavaPlugin {
 					if (target != null) {
 						target.removePotionEffect(PotionEffectType.WEAKNESS);
 						target.removePotionEffect(PotionEffectType.BLINDNESS);
-						sender.sendMessage(ChatColor.GREEN + "Commande réussie !");
+						sender.sendMessage(ChatColor.GREEN + "Commande rÃ©ussie !");
 					} else {
 						sender.sendMessage(ChatColor.RED + "Le joueur " + args[0] + " n'existe pas.");
 					}
 					return true;
 				} else {
-					sender.sendMessage(ChatColor.RED + "La commande écrite est de taille incorrecte.");
+					sender.sendMessage(ChatColor.RED + "La commande Ã©crite est de taille incorrecte.");
 				}	
 			}
 			
